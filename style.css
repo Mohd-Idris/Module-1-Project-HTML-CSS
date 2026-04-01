@@ -8,3 +8,57 @@
     scroll-behavior: smooth;
 }
 
+.nav-bar{
+    width: 100%;
+    display: flex;
+    gap: 5rem;
+    position: fixed;
+    top: 1rem;
+    /* left: 50%; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;
+    z-index: 1000;
+    
+}
+
+.logo{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+}
+
+span{
+    color: rgba(113, 38, 182, 0.945);
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.logo:hover{
+    font-size: x-large;
+}
+
+.nav-links{
+    display: flex;
+    gap: 2rem;
+    align-content: center;
+}
+
+li a{
+    /* position: relative;  */
+    color: white;
+    font-weight: 300;
+}
+
+li a:hover{
+    width: 100%;
+    color: blueviolet;
+    font-size: large;
+    font-weight: 900;
+}
+
