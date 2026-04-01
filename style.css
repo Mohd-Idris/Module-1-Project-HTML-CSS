@@ -22,7 +22,7 @@
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
     z-index: 1000;
-    
+
 }
 
 .logo{
@@ -61,4 +61,28 @@ li a:hover{
     font-size: large;
     font-weight: 900;
 }
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 12%;
+    width: 100%;
+    position: relative;
+    z-index: 90;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+}
+
+.info{
+    float: right;
+    text-align: center;
+}
+
 
