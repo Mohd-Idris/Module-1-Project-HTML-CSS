@@ -62,27 +62,57 @@ li a:hover{
     font-weight: 900;
 }
 
-section{
+.about-section{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 8rem 12%;
     width: 100%;
-    position: relative;
-    z-index: 90;
+    /* position: relative; */
+    /* z-index: 90; */
 }
 
-img{
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 10rem;
+}
+
+.container img{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    float: left;
+    /* float: left; */
 }
 
 .info{
-    float: right;
+    /* float: right;
+    text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    gap: 1.2rem;
+}
+
+
+.info h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.info p{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.info #job{
+    color: black;
+    background: linear-gradient(to right, rgb(255,0,255),rgb(0,157,255));
+    border-radius: 2%;
 }
 
 
